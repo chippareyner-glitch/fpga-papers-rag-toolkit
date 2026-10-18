@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# Chroma & Local DB
+database/
+*.sqlite3
+
+# PDF Papers (Stored as GitHub Release Assets)
+papers/*.pdf
+papers/*.part
+*.zip
+*.tar.gz
+
+# Cache
+.cache/
+.pytest_cache/

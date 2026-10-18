@@ -33,6 +33,8 @@ fpga-papers-rag-toolkit/
 ├── search.py                  # 双路混合检索（Dense 向量 + BM25）与命令行/JSON 查询
 ├── download_papers.py         # 论文自动化下载器（支持 ArXiv 与 AMD 官网校验）
 ├── PAPERS_INDEX.md            # 28 篇论文的分类目录、摘要与硬件要点速查
+├── docs/                      # 深度工程实战文档与经验总结
+│   └── RV32_核对比与提频方法总结_2026-10-18.md # 六核对比、时序瓶颈定位与板上 100MHz 提频实战
 ├── requirements.txt           # 基础运行环境依赖
 └── papers/                    # 论文存放目录（可将 Release 中的 PDF 解压至此）
 ```
